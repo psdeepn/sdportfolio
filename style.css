@@ -1913,14 +1913,27 @@ body {
   color: var(--text-muted);
 }
 
+.projects-section .section-header-wrap {
+  max-width: 440px;
+}
+
 .projects-grid-featured {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   margin-top: 40px;
+  width: 100%;
+}
+
+.card-left {
+  max-width: 420px;
+  width: 100%;
 }
 
 .card-right {
+  max-width: 420px;
+  width: 100%;
+  margin-left: auto;
   text-align: right;
 }
 
