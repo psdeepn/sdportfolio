@@ -2027,10 +2027,21 @@ body {
   width: 100%;
 }
 
+.exp-col-main {
+  max-width: 420px;
+  width: 100%;
+}
+
+.exp-col-sidebar {
+  max-width: 400px;
+  width: 100%;
+  margin-left: auto;
+}
+
 .timeline-list {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 24px;
   margin-top: 28px;
 }
 
@@ -2086,25 +2097,27 @@ body {
 }
 
 .awards-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
 }
 
 @media (max-width: 640px) {
   .awards-grid {
-    grid-template-columns: 1fr;
+    gap: 10px;
   }
 }
 
 .award-card {
-  padding: 14px 16px;
+  padding: 12px 16px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.5);
   border: 1px solid rgba(61, 126, 255, 0.2);
   display: flex;
   align-items: center;
   gap: 12px;
+  width: 100%;
 }
 
 .award-info {
